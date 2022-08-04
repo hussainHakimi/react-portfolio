@@ -40,7 +40,7 @@ header{
 
 
 /* ========================================= Header Image ==================================*/
-/* .me{
+.me{
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
@@ -50,10 +50,10 @@ header{
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 2rem 1.5rem 1.5rem 1.5rem;
-} */
+}
 
 /* ========================================= Scroll Down ==================================*/
-/* .scroll__down{
+.scroll__down{
   position: absolute;
   right: -2.3rem;
   bottom: 5rem;
@@ -61,4 +61,4 @@ header{
 }
 .scroll__down:hover{
   transform: rotate(0deg);
-} */
+}
