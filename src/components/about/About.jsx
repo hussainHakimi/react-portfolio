@@ -11,7 +11,7 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className="about__container"></div>
+      <div className="about__container">
         <div className="about__me">
           <div className="about__me-image">
             <img src={ABI} alt="About Image" />
@@ -42,6 +42,7 @@ const About = () => {
 
             <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
+      </div>
     </section>
   )
 }
