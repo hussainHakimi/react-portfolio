@@ -25,4 +25,21 @@
 .experience__content{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
 }
+.experience__detail div{
+  /* background: var(--color-bg); */
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.experience__detail small{
+  color: var(--color-light);
+  margin-left: 2rem;
+}
+.icon{
+  color: var(--color-primary);
+}
+
+
+

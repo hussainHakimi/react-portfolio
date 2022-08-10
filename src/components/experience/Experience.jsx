@@ -12,28 +12,38 @@ const Experience = () => {
           <h3>Front Development</h3>
           <div className="experience__content">
             <article className='experience__detail'>
-              <BsPatchCheckFill/>
-              <h4>HTML5</h4>
+              <div>
+                <BsPatchCheckFill className="icon"/>
+                <h4>HTML5</h4>
+              </div>
+                <small>Master</small>
+            </article>
+            <article className='experience__detail'>
+              <div>
+                <BsPatchCheckFill className="icon"/>
+                <h4>CSS3</h4>
+              </div>
+                <small>Master</small>
+            </article>
+            <article className='experience__detail'>
+              <div>
+                <BsPatchCheckFill className="icon"/>
+                <h4>Javascript</h4>
+              </div>
               <small>Master</small>
             </article>
             <article className='experience__detail'>
-              <BsPatchCheckFill/>
-              <h4>CSS3</h4>
+              <div>
+                <BsPatchCheckFill className="icon"/>
+                <h4>Tailwindcss</h4>
+              </div>
               <small>Master</small>
             </article>
             <article className='experience__detail'>
-              <BsPatchCheckFill/>
-              <h4>Javascript</h4>
-              <small>Master</small>
-            </article>
-            <article className='experience__detail'>
-              <BsPatchCheckFill/>
-              <h4>Tailwindcss</h4>
-              <small>Master</small>
-            </article>
-            <article className='experience__detail'>
-              <BsPatchCheckFill/>
-              <h4>React</h4>
+              <div>
+                <BsPatchCheckFill className="icon"/>
+                <h4>React</h4>
+              </div>
               <small>Intermidat</small>
             </article>
           </div>
@@ -42,28 +52,38 @@ const Experience = () => {
         <h3>Backend Development</h3>
           <div className="experience__content">
             <article className='experience__detail'>
-              <BsPatchCheckFill/>
-              <h4>PHP</h4>
+              <div>
+                <BsPatchCheckFill className="icon"/>
+                <h4>PHP</h4>
+              </div>
               <small>Master</small>
             </article>
             <article className='experience__detail'>
-              <BsPatchCheckFill/>
-              <h4>Laravel</h4>
+              <div>
+                <BsPatchCheckFill className="icon"/>
+                <h4>Laravel</h4>
+              </div>
               <small>Master</small>
             </article>
             <article className='experience__detail'>
-              <BsPatchCheckFill/>
-              <h4>Python</h4>
+              <div>
+                <BsPatchCheckFill className="icon"/>
+                <h4>Python</h4>
+              </div>
               <small>Master</small>
             </article>
             <article className='experience__detail'>
-              <BsPatchCheckFill/>
-              <h4>Django</h4>
+              <div>
+                <BsPatchCheckFill className="icon"/>
+                <h4>Django</h4>
+              </div>
               <small>Master</small>
             </article>
             <article className='experience__detail'>
-              <BsPatchCheckFill/>
+              <div>
+              <BsPatchCheckFill className="icon"/>
               <h4>MYSQL</h4>
+              </div>
               <small>Intermidat</small>
             </article>
           </div>
