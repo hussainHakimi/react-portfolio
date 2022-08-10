@@ -1,0 +1,76 @@
+.about__container{
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about__me{
+  float: left;
+  width: 35%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+  display: grid;
+  place-items: center;
+}
+
+.about__me-image{
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+.about__me-image:hover{
+  transform: rotate(0deg);
+}
+
+.about__content{
+  
+  width: 50%;
+  float: right;
+}
+
+.about__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.about__card{
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about__card:hover{
+  background: transparent;
+  border-color: var(--color-light);
+}
+
+.about__icon{
+  font-size: 1.4rem;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.about__card h5{
+  font-size: 1rem;
+  color: #fff;
+}
+
+.about__card small{
+  font-size: .7rem;
+  color: var(--color-light);
+}
+
+.about__content p{
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+}
+.about__content a{
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+}
