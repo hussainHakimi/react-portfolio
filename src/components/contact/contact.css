@@ -1,0 +1,81 @@
+.container.contact__container{
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+
+}
+
+.contact__options{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact__option{
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 1.2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.contact__option:hover{
+  background: var(--color-bg);
+  border: 1px solid var(--color-primary);
+}
+
+.option__icon{
+  font-size: 1.8rem;
+  margin-bottom: .5rem;
+}
+
+.contact__option a{
+  margin-top: 0.6rem;
+  display: block;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 1.2rem;
+  background: var(--color-bg-variant);
+  border-radius: .5rem;
+  color: #fff;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  font-size: 1rem;
+}
+
+
+
+/* ======================== Media query (Medium Devices/Tablets) ==============================*/
+@media screen and (max-width: 1024px) {
+  .container.contact__container{
+    grid-template-columns: 1fr;
+    gap:2rem;
+  }
+  form button{
+    margin: auto;
+  }
+}
+/* ======================== Media query (Small Devices/Tablets) ==============================*/
+@media screen and (max-width: 600px) {
+  .container.contact__container{
+    width: var(--container-width-sm);
+  }
+
+}
