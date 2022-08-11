@@ -28,11 +28,16 @@
   color: var(--color-bg);
 }
 
+.service ul{
+  padding: 2rem;
+}
+
 .service ul li{
-  padding: 1.4rem;
   display: flex;
+  gap: 1rem;
   align-items: center;
   column-gap: .6rem;
+  margin-bottom: 1rem;
 
 }
 .service__icon{
@@ -41,4 +46,24 @@
 
 .service ul li p{
   font-size: .9rem;
+}
+
+
+/* ======================== Media query (Medium Devices/Tablets) ==============================*/
+@media screen and (max-width: 1024px) {
+  .services__container{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .service{
+    height: auto;
+  }
+}
+/* ======================== Media query (Small Devices/Tablets) ==============================*/
+@media screen and (max-width: 600px) {
+  .services__container{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
