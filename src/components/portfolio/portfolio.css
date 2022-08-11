@@ -32,3 +32,19 @@
   gap: 1rem;
   margin-bottom: 1rem;
 }
+
+
+/* ======================== Media query (Medium Devices/Tablets) ==============================*/
+@media screen and (max-width: 1024px) {
+  .portfolio__container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+/* ======================== Media query (Small Devices/Tablets) ==============================*/
+@media screen and (max-width: 600px) {
+  .portfolio__container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
