@@ -47,9 +47,6 @@ header {
   overflow: hidden;
   padding: 2rem 1.5rem 1.5rem 1.5rem;
 }
-.me > img{
-  bottom: 0;
-}
 
 /* ========================================= Scroll Down ==================================*/
 .scroll__down {
@@ -58,7 +55,7 @@ header {
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
-  font-weight: 200;
+  font-weight: 900;
   font-size: 0.9rem;
 }
 .scroll__down:hover {
