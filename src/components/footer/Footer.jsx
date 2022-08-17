@@ -5,11 +5,11 @@ import {GrInstagram} from 'react-icons/gr'
 import {BsTwitter} from 'react-icons/bs'
 import {IoLogoIonic} from 'react-icons/io'
 import {FaLinkedinIn} from 'react-icons/fa'
+import Logo from '../../assets/logo.png'
 const Footer = () => {
   return (
     <footer>
-      <p className='footer__logo'><IoLogoIonic/></p>
-
+      <img src={Logo} alt="" className='footer__logo' />
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
