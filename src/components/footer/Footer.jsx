@@ -5,7 +5,7 @@ import {GrInstagram} from 'react-icons/gr'
 import {BsTwitter} from 'react-icons/bs'
 import {IoLogoIonic} from 'react-icons/io'
 import {FaLinkedinIn} from 'react-icons/fa'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/react.png'
 const Footer = () => {
   return (
     <footer>
