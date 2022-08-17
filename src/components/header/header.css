@@ -37,7 +37,7 @@ header {
 
 /* ========================================= Header Image ==================================*/
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: linear-gradient(#fff, transparent);
   width: 22rem;
   height: 30rem;
   position: absolute;
@@ -46,6 +46,9 @@ header {
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+.me > img{
+  bottom: 0;
 }
 
 /* ========================================= Scroll Down ==================================*/
@@ -65,7 +68,7 @@ header {
 /* ======================== Media query (Medium Devices/Tablets) ==============================*/
 @media screen and (max-width: 1024px) {
   header {
-    height: 100vh;
+    height: 60vh;
   }
 }
 /* ======================== Media query (Small Devices/Tablets) ==============================*/
