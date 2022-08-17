@@ -10,12 +10,13 @@
   background: linear-gradient(
     45deg,
     transparent,
-    var(--color-primary),
+    #fff,
     transparent
   );
   display: grid;
   place-items: center;
 }
+
 
 .about__me-image {
   border-radius: 2rem;

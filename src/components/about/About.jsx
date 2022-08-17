@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ABI from '../../assets/me-about.jpg'
+import ABI from '../../assets/me2-about.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FaUsers} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
